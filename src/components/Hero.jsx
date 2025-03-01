@@ -27,11 +27,11 @@ const Hero = () => {
               Specializing in creating responsive, accessible, and performant web and mobile applications.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Link to="projects" smooth={true} duration={500} offset={-70}>
+              {/* <Link to="projects" smooth={true} duration={500} offset={-70}>
                 <button className="btn btn-primary">
                   View My Work
                 </button>
-              </Link>
+              </Link> */}
               <Link to="contact" smooth={true} duration={500} offset={-70}>
                 <button className="btn btn-secondary">
                   Contact Me

@@ -4,7 +4,7 @@ import { FiArrowUp } from 'react-icons/fi';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-secondary-900 text-white py-12">
       <div className="container">
@@ -16,17 +16,17 @@ const Footer = () => {
             </div>
             <p className="text-secondary-400 mb-6 max-w-md">
               A passionate frontend developer focused on creating intuitive and engaging user experiences
-              with modern web technologies.
+              with modern web and mobile technologies.
             </p>
             <p className="text-secondary-400">
-              Based in San Francisco, CA
+              Based in Dubai, UAE
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2">
-              {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
+              {['Home', 'About', 'Skills', 'Contact'].map((item) => (
                 <li key={item}>
                   <Link
                     to={item.toLowerCase()}
@@ -42,39 +42,39 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
             <ul className="space-y-2">
               <li className="text-secondary-400">
-                <a href="mailto:alex.johnson@example.com" className="hover:text-primary-400 transition-colors">
-                  alex.johnson@example.com
+                <a href="mailto:chathu.abey93@gmail.com" className="hover:text-primary-400 transition-colors">
+                  chathu.abey93@gmail.com
                 </a>
               </li>
               <li className="text-secondary-400">
-                <a href="tel:+15551234567" className="hover:text-primary-400 transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+971522105083" className="hover:text-primary-400 transition-colors">
+                  +971 (52) 210 5083
                 </a>
               </li>
               <li className="text-secondary-400">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
+                <a href="https://github.com/KeRusty" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
                   GitHub
                 </a>
               </li>
               <li className="text-secondary-400">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
+                <a href="https://www.linkedin.com/in/chathu-abeywickrama/" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
                   LinkedIn
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <hr className="border-secondary-800 my-8" />
-        
+
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-400 text-sm">
-            &copy; {currentYear} Alex Johnson. All rights reserved.
+            &copy; {currentYear} Chathu Abeywickrama. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <Link
